@@ -6,10 +6,11 @@ def oxford_comma(array)
   elsif array.length == 3
     end_element = array[array.length - 1]
     array.pop
-    array.join(", ") << "and " << end_elementnt}"
+    array.join(", ") << "and " << end_elementnt}
   else
     end_element = array[array.length - 1]
     array.pop
-    array.join(", ") << "and " << end_element
+    string = array.join(", ")
+    string 
   end
 end
