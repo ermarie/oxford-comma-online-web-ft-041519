@@ -11,9 +11,6 @@ def oxford_comma(array)
     string << end_element
     string
   else
-    end_element = array[array.length - 1]
-    array.pop
-    string = array.join(", ")
-    string
+
   end
 end
